@@ -3,12 +3,13 @@ Section: net
 Priority: optional
 Maintainer: sledgehammer999 <hammered999@gmail.com>
 Build-Depends: debhelper (>= 7.4.12),
-               libtorrent-rasterbar-dev (>= 1.0.7),
+               libtorrent-rasterbar-dev (>= >= 1.1.2),
                libboost-dev,
                libboost-system-dev,
                qtbase5-dev (>= 5.5.1),
                libqt5svg5-dev (>= 5.5.1),
-               qttools5-dev-tools
+               qttools5-dev-tools,
+               zlib1g-dev
 Standards-Version: 3.9.6
 Vcs-Git: git://git.debian.org/git/collab-maint/qbittorrent.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/qbittorrent.git
