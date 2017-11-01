@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: sledgehammer999 <hammered999@gmail.com>
 Build-Depends: debhelper (>= 7.4.12),
-               libtorrent-rasterbar-dev (>= >= 1.1.2),
+               libtorrent-rasterbar-dev (>= 1.1.2),
                libboost-dev,
                libboost-system-dev,
                qtbase5-dev (>= 5.5.1),
